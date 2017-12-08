@@ -1,0 +1,1 @@
+define(["text!templates/common/notFoundView.html"],function(e){return openbiz.View.extend({app:"mainapp",module:"common",name:"notFoundView",el:".main",initialize:function(){return openbiz.View.prototype.initialize.call(this),this},render:function(){return this.template=_.template(e),this.$el.html(this.template()),this}})});

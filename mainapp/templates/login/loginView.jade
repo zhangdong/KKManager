@@ -1,0 +1,21 @@
+.row
+    .login-content
+        .row(style="margin-bottom:20px")
+            .col-xs-12.text-center
+                h3(style="color:#ffffff") 管理员登录
+        .login-panel.panel.panel-default
+            .panel-body
+                form.form-horizontal#lgform(data-parsley-validate="")
+                    fieldset
+                        .form-group
+                            label.col-xs-3.control-label 用户名
+                            .col-xs-9
+                                input.form-control.username(placeholder='',required="")
+                        .form-group
+                            label.col-xs-3.control-label 密码
+                            .col-xs-9
+                                input.form-control.password(placeholder='', type='password',required="")
+                        .form-group
+                            a#action(href="")
+                        .form-group.text-center
+                            button.btn.btn-primary.text-center.login(data-loading-text="登录中...") &nbsp;&nbsp;&nbsp;登录&nbsp;&nbsp;&nbsp;

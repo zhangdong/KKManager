@@ -1,0 +1,23 @@
+br
+.row
+   .col-lg-12
+      .panel.panel-default
+         .panel-body
+            form#postform(parsley-validate,novalidate="novalidate")
+                .my-form-group
+                    .form-group
+                        label 标题
+                        input.form-control#title(placeholder='请输入标题',required="")
+                    .form-group#titleContent
+                        .imgbox
+                            .imgnum
+                                input.filepath(type="file" accept="image/x-png,image/gif,image/jpeg,image/bmp")
+                                a.btn.btn-link.image-close
+                                    span(style="color:red")
+                                        i.glyphicon.glyphicon-remove
+                                img.img-rounded.image-border.img1(src="assets/btn.png" alt="")
+                                img.imgdisplay.img-rounded.img2(alt="")
+         .panel-footer
+             .text-center
+                 button.btn.btn-primary.btn-record-addnew 添加新段落
+                 button.btn.btn-success.btn-record-submit 提交

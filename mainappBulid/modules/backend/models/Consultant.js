@@ -1,0 +1,1 @@
+define(["../../lib/Tool"],function(e){return Backbone.Model.extend({url:openbiz.apps.mainapp.appUrl,idAttribute:"_id",defualts:{},lh:function(i){var t={topic:"review/agree",payload:{_id:this.id},time:(new Date).getTime()/1e3};e.http(this.url,"POST",JSON.stringify(t),function(e,t){i(e,t)})}})});

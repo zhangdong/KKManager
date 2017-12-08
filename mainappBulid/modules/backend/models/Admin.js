@@ -1,0 +1,1 @@
+define(["../../lib/Tool"],function(e){return Backbone.Model.extend({url:openbiz.apps.mainapp.appUrl,idAttribute:"id",defualts:{},login:function(e,n,i){"admin"==e&&"123456"==n?i(!0,{username:"zdme",userid:"1fdsfs"}):i(!1,{})}})});

@@ -1,0 +1,1 @@
+"use strict";define(["./router"],function(e){return openbiz.Module.extend({router:e})});

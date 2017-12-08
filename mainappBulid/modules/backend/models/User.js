@@ -1,0 +1,1 @@
+define(["../../lib/Tool"],function(e){return Backbone.Model.extend({url:openbiz.apps.mainapp.appUrl,idAttribute:"_id",defualts:{}})});
